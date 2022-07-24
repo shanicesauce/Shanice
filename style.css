@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 body {
     color: var(--maintxt);
@@ -49,10 +50,12 @@ header nav ul li a {
 footer {
     background: var(--first-background);
     width: 100%;
-    padding: 40px 35px;
+    padding: 35px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
+    top: 560px;
 }
 footer h2 {
     color: var(--secondtxt);
@@ -88,7 +91,7 @@ footer div {
 .project img {
     border: 2px solid #fdff75;
     position: relative;
-    left: 534px;
+    left: 555px;
 }
 .project h3 {
     position:relative;
@@ -128,7 +131,7 @@ footer div {
     float: left;
     position: relative;
     right: 45px;
-    top: 280px;
+    top: 255px;
 }
 .next-project h3 {
     position: relative;
@@ -141,4 +144,30 @@ footer div {
     bottom: -525px;
     right: 255px;
     padding: 15px;
+}
+.contact div p a {
+  font-size: 28px;
+  text-decoration: none;
+  color: var(--secondtxt);
+  position: relative;
+  left: 528px;
+  padding-left: 55px;
+}
+#contact-info > * {
+    position: relative;
+    top: 366px;
+}
+
+#resume > * {
+    position: relative;
+    top: 400px;
+}
+
+#resume div a {
+    font-size: 28px;
+    text-decoration: none;
+    color: var(--secondtxt);
+    position: relative;
+    left: 645px;
+    padding-left: 55px;
 }
