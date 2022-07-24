@@ -50,6 +50,9 @@ footer {
     background: var(--first-background);
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer h2 {
     color: var(--secondtxt);
@@ -83,11 +86,59 @@ footer div {
     color: var(--secondtxt);
 }
 .project img {
-    border: 2px solid black;
+    border: 2px solid #fdff75;
     position: relative;
     left: 534px;
 }
 .project h3 {
     position:relative;
     left: 710px;
+}
+.coming-soon img {
+    float: left;
+    position: relative;
+    left: 333px;
+}
+.place-holder img {
+    float: left;
+    position: relative;
+    left: 555px;
+    bottom: 55px;
+}
+.coming-soon h3 {
+    position: relative;
+    top: 245px;
+    left: 129px;
+    padding: 15px;
+}
+.place-holder h3 {
+    position: relative;
+    left: 325px;
+   top: 205px;
+   
+}
+.next-project img {
+    float: left;
+    position: relative;
+    left: -267px;
+    top: 305px;
+}
+
+.next-place img {
+    float: left;
+    position: relative;
+    right: 45px;
+    top: 280px;
+}
+.next-project h3 {
+    position: relative;
+    bottom: -550px;
+    right: 480px;
+    padding: 15px;
+}
+.next-place h3 {
+    position: relative;
+    bottom: -525px;
+    right: 255px;
+    padding: 15px;
 }
