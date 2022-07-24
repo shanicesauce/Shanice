@@ -1,29 +1,36 @@
+:root {
+    --maintxt: #ff1399;
+    --first-background: #ffd1e3;
+    --secondtxt: #ff5395;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    color: #ff1399;
+    color: var(--maintxt);
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 header {
-    background-color: #ffd1e3;
-    padding: 25px;
+    background-color: var(--first-background);
 }
 
 header h1 {
     font-size: 40px;
     font-weight: bold;
-    color: #ff5395;
-    margin: 0 -15px;
-    display:inline-block;
+    color: var(--maintxt);
+    margin: 0 -59px;
+    display:block;
+    position:relative;
+    top: 198px;
+    left: 59px;
 
 }
 header a {
     text-decoration: none;
-    color: #ff5395;
+    color: var(--secondtxt);
 }
 header nav {
 float: right;
@@ -36,14 +43,16 @@ header nav ul li a {
     margin: 0 25px;
     font-weight: lighter;
     font-size: 28px;
+    position: relative;
+    top: -32px;
 }
 footer {
-    background: #ffd1e3;
+    background: var(--first-background);
     width: 100%;
     padding: 40px 35px;
 }
 footer h2 {
-    color: #ff5395;
+    color: var(--secondtxt);
     display: inline;
     font-size: 25px;
     margin: 0;
@@ -52,4 +61,32 @@ footer div {
     float: right;
     line-height: 1 ;
     text-align: center;
+}
+.avatar img {
+    border-radius: 31%;
+    border: solid 2px rgba(0, 0, 0, .7);
+    position: relative;
+    top: -42px;
+    left: 15px;
+}
+.title {
+    font-size: 32px;
+    border-bottom: #60cdff 3px solid;
+    padding-bottom: 1px;
+    text-align: center;
+    margin:  0 auto 15px auto;
+    width: 35%;
+}
+.intro div p {
+    font-size: 20px;
+    text-align: center;
+}
+.project img {
+    border: 2px solid black;
+    position: relative;
+    left: 534px;
+}
+.project h3 {
+    position:relative;
+    left: 710px;
 }
