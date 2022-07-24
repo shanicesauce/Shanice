@@ -1,7 +1,7 @@
 :root {
     --maintxt: #ff1399;
     --first-background: #ffd1e3;
-    --secondtxt: #ff5395;
+    --secondtxt: #6db8ff;
 }
 * {
     margin: 0;
@@ -71,7 +71,7 @@ footer div {
 }
 .title {
     font-size: 32px;
-    border-bottom: #60cdff 3px solid;
+    border-bottom: #ff8dd9 3px solid;
     padding-bottom: 1px;
     text-align: center;
     margin:  0 auto 15px auto;
@@ -80,6 +80,7 @@ footer div {
 .intro div p {
     font-size: 20px;
     text-align: center;
+    color: var(--secondtxt);
 }
 .project img {
     border: 2px solid black;
