@@ -11,7 +11,8 @@
 }
 body {
     color: var(--maintxt);
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 header {
@@ -87,6 +88,9 @@ footer div {
     font-size: 20px;
     text-align: center;
     color: var(--secondtxt);
+}
+.project > *{
+    overflow: hidden;
 }
 .project img {
     border: 2px solid #fdff75;
@@ -170,4 +174,9 @@ footer div {
     position: relative;
     left: 645px;
     padding-left: 55px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
