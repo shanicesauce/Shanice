@@ -1,3 +1,4 @@
 [submodule "Shanice"]
     path = Shanice
-    url = git@github.com:shanicesauce/Shanice.git
+    url = https://shanicesauce.github.io/Shanice/
+    
