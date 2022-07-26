@@ -17,36 +17,41 @@ body {
 
 header {
     background-color: var(--first-background);
+    display: flex;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     color: var(--maintxt);
-    margin: 0 -59px;
     display:block;
     position:relative;
-    top: 198px;
-    left: 59px;
+    
 
 }
 header a {
     text-decoration: none;
     color: var(--secondtxt);
 }
-header nav {
-float: right;
-margin: auto 0;
+ nav {
+display: flex;
+justify-content: right;
+background-color: var(--first-background);
 }
-header nav ul li {
-    display: inline-block;
+
+ nav ul li {
+    display: inline;
+    background-color: var(--first-background);
+    
 }
-header nav ul li a {
+ nav ul li a {
     margin: 0 25px;
     font-weight: lighter;
     font-size: 28px;
     position: relative;
-    top: -32px;
+    text-decoration: none;
+    color: var(--maintxt);
+    
 }
 footer {
     background: var(--first-background);
@@ -56,7 +61,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
-    top: 560px;
+   
 }
 footer h2 {
     color: var(--secondtxt);
@@ -73,8 +78,7 @@ footer div {
     border-radius: 31%;
     border: solid 2px rgba(0, 0, 0, .7);
     position: relative;
-    top: -42px;
-    left: 15px;
+   
 }
 .title {
     font-size: 32px;
@@ -89,94 +93,48 @@ footer div {
     text-align: center;
     color: var(--secondtxt);
 }
-.project > *{
+.projects article {
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 .project img {
     border: 2px solid #fdff75;
-    position: relative;
-    left: 555px;
-}
-.project h3 {
-    position:relative;
-    left: 710px;
-}
-.coming-soon img {
-    float: left;
-    position: relative;
-    left: 333px;
-}
-.place-holder img {
-    float: left;
-    position: relative;
-    left: 555px;
-    bottom: 55px;
-}
-.coming-soon h3 {
-    position: relative;
-    top: 245px;
-    left: 129px;
-    padding: 15px;
-}
-.place-holder h3 {
-    position: relative;
-    left: 325px;
-   top: 205px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
    
 }
-.next-project img {
-    float: left;
-    position: relative;
-    left: -267px;
-    top: 305px;
-}
 
-.next-place img {
-    float: left;
-    position: relative;
-    right: 45px;
-    top: 255px;
-}
-.next-project h3 {
-    position: relative;
-    bottom: -550px;
-    right: 480px;
-    padding: 15px;
-}
-.next-place h3 {
-    position: relative;
-    bottom: -525px;
-    right: 255px;
-    padding: 15px;
+.contact div p {
+  font-size: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .contact div p a {
-  font-size: 28px;
-  text-decoration: none;
+    text-decoration: none;
   color: var(--secondtxt);
-  position: relative;
-  left: 528px;
-  padding-left: 55px;
-}
-#contact-info > * {
-    position: relative;
-    top: 366px;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-#resume > * {
-    position: relative;
-    top: 465px;
 }
 
 #resume div a {
     font-size: 28px;
     text-decoration: none;
     color: var(--secondtxt);
-    position: relative;
-    left: 645px;
-    padding-left: 55px;
-}
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
